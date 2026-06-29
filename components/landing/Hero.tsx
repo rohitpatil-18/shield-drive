@@ -24,7 +24,7 @@ export default function Hero() {
           </span>
         </span>
 
-        <h1 className="mt-8 max-w-4xl text-4xl sm:text-5xl md:text-6xl font-extrabold leading-[1.1] ">
+        <h1 className="mt-8 max-w-4xl text-4xl font-extrabold leading-[1.1] text-white sm:text-5xl md:text-6xl">
           Protect Your Journey.
           <br />
           Save More on Car Insurance.
