@@ -450,6 +450,12 @@ The application was built using modern React and Next.js best practices with an 
 
 ---
 
+## 🚀 Lighthouse Performance Report
+
+View the complete Lighthouse report here:
+
+📄 [Lighthouse Report](docs/shield-drive-performance.html)
+
 ## Thank You
 
 Thank you for reviewing this project.
