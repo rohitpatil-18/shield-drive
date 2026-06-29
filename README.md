@@ -454,7 +454,9 @@ The application was built using modern React and Next.js best practices with an 
 
 View the complete Lighthouse report here:
 
-📄 [Lighthouse Report](docs/shield-drive-performance.html)
+📄 [Lighthouse Report-HTML](docs/shield-drive-performance.html)
+📄 [Lighthouse Report-PDF](docs/shield-drive-performance.pdf)
+
 
 ## Thank You
 
