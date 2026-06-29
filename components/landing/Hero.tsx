@@ -14,9 +14,14 @@ export default function Hero() {
 
       <div className="mx-auto flex min-h-[70vh] max-w-7xl flex-col items-center justify-center px-6 py-14 md:py-20 text-center">
 
-        <span className="flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-5 py-2 text-sm font-medium backdrop-blur">
-            <ShieldCheck size={18} />
-             Trusted by 100,000+ Drivers Nationwide
+        <span className="flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-5 py-2 text-sm font-medium text-white backdrop-blur-sm">
+          <ShieldCheck
+            size={18}
+            className="text-amber-400"/>
+
+          <span className="text-white">
+            Trusted by 100,000+ Drivers Nationwide
+          </span>
         </span>
 
         <h1 className="mt-8 max-w-4xl text-4xl sm:text-5xl md:text-6xl font-extrabold leading-[1.1] ">
@@ -33,19 +38,19 @@ export default function Hero() {
 
         <div className="mt-10 flex flex-wrap justify-center gap-3 text-sm font-medium">
 
-          <div className="flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-3 py-2 text-xs sm:text-sm backdrop-blur">
-              <CheckCircle size={18} />
-              Fast Quote Comparison
+          <div className="flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-3 py-2 text-xs text-white sm:text-sm backdrop-blur-sm">
+            <CheckCircle size={18} className="text-emerald-400" />
+            Fast Quote Comparison
           </div>
 
-          <div className="flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-3 py-2 text-xs sm:text-sm backdrop-blur">
-              <CheckCircle size={18} />
-              Secure & Private
+          <div className="flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-3 py-2 text-xs text-white sm:text-sm backdrop-blur-sm">
+            <CheckCircle size={18} className="text-emerald-400" />
+            Secure &amp; Private
           </div>
 
-          <div className="flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-3 py-2 text-xs sm:text-sm backdrop-blur">
-              <CheckCircle size={18} />
-               No Hidden Charges
+          <div className="flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-3 py-2 text-xs text-white sm:text-sm backdrop-blur-sm">
+            <CheckCircle size={18} className="text-emerald-400" />
+            No Hidden Charges
           </div>
 
         </div>
