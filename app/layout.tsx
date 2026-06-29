@@ -40,7 +40,7 @@ export const metadata: Metadata = {
 
   applicationName: "ShieldDrive",
 
-  metadataBase: new URL("........."),
+  metadataBase: new URL("http://localhost:3000"),
 
   alternates: {
     canonical: "/",
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
     description:
       "Compare personalized auto insurance quotes from trusted providers in under 2 minutes.",
 
-    url: "............",
+    url: "http://localhost:3000",
 
     siteName: "ShieldDrive",
 
